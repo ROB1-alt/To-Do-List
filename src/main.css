@@ -7,7 +7,8 @@
 
 body{
     height: 100%;
-    background-color: #111;
+    background: rgb(63,94,251);
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,7 +22,7 @@ h1{
 
 .styling{
     font-weight: 800;
-    color: lime;
+    color: blue;
 }
 
 .input_div{
@@ -52,7 +53,7 @@ h1{
     background-color: #fff;
     color: #fff;
     margin: 0.25px;
-    background-color:lime ;
+    background-color: blue ;
     cursor: pointer;
 }
 
@@ -80,7 +81,7 @@ h1{
 .item_input{
     background: none;
     outline: none;
-    color: #fff;
+    color: white;
     border: none;
     width: 350px;
     font-size: 1.4rem;
@@ -91,7 +92,7 @@ h1{
     margin: 0 0.75rem;
     background: none;
     outline: none;
-    color: lime;
+    color: blue;
     border: none;
     cursor: pointer;
 
@@ -99,6 +100,29 @@ h1{
 }
 
 .removeButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    background: none;
+    outline: none;
+    color: #E00;
+    border: none;
+    cursor: pointer;
+}
+
+
+.edit{
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    background: none;
+    outline: none;
+    color: blue;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.remove{
     font-size: 1.4rem;
     margin: 0 0.5rem;
     background: none;
